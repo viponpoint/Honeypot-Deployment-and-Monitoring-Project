@@ -2,7 +2,7 @@
 
 ## Objective
 
-The primary objective of setting up this honeypot project using T-Pot on Digital Ocean is to create a sophisticated environment for detecting, monitoring, and analyzing malicious network activities. 
+The primary objective of setting up this honeypot project using T-Pot on Digital Ocean is to create a sophisticated environment for detecting, monitoring, and analyzing malicious network activities. Honeypot is something that is easily accessible and attractive, this can be data services or systems, and the objective here is to detect unauthorized activity or to learn more about an attacker or simply distract them.
 
 This setup serves several key purposes:
 
