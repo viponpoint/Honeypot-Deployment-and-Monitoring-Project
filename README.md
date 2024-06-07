@@ -63,4 +63,75 @@ By achieving these objectives, the project aims to significantly enhance the und
 
 
 ## Steps
+
+#### 1. **Create a Digital Ocean Account**
+   - If you don’t already have an account, sign up on [Digital Ocean](https://www.digitalocean.com/).
+
+#### 2. **Create a New Droplet**
+   - Log in to your Digital Ocean account.
+   - Click on “Create Droplet”.
+   - Choose an image: Select **Ubuntu 22.04** as the operating system.
+   - Select a plan: Choose a plan with sufficient resources. T-Pot recommends at least 4GB of RAM and 2 CPUs.
+   - Add block storage if needed.
+   - Choose a data center region that is closest to your location for better performance.
+   - Enter your prefered password.
+
+#### 3. **Initial Setup of the Droplet**
+   - Once the droplet is created, note the IP address.
+   - Connect to your droplet via SSH:
+     You can use Putty
+     ssh root@your_droplet_ip
+     ```
+   - Update the package lists and upgrade the existing packages:
+     ```sh
+     apt update && apt upgrade -y
+     ```
+
+#### 4. **Install Docker**
+   - Install Docker, which is required for running T-Pot:
+     ```sh
+     apt install docker.io -y
+     systemctl start docker
+     systemctl enable docker
+     ```
+
+#### 5. **Install Docker Compose**
+   - Install Docker Compose for managing the multi-container Docker applications:
+     ```sh
+     apt install docker-compose -y
+     ```
+
+#### 6. **Download and Install T-Pot**
+   - Clone the T-Pot repository:
+     ```sh
+     git clone https://github.com/telekom-security/tpotce
+     cd tpotce/iso/installer/
+     ```
+   - Run the T-Pot installer:
+     ```sh
+     ./install.sh --type=user
+     ```
+   - Follow the on-screen instructions to complete the installation.
+     
+#### 7. **Configure T-Pot**
+   - Once the installation is complete, T-Pot will automatically start its services. You can access the T-Pot web interface by navigating to `https://your_droplet_ip:64297` in a web    
+     browser.
+   - Log in using your credentials that you must have created during the installation.
+
+#### 8. **Accessing Kibana and Attack Map**
+   - Access Kibana for log analysis and visualization at `https://your_droplet_ip:64297/kibana` or click on the GUI link leading to Kibana
+   - View the Attack Map at `https://your_droplet_ip:64297/map` or also click the GUI link.
+
+#### 9. **Set Up Monitoring and Alerts**
+   - Configure Kibana to create dashboards for visualizing attack data.
+   - Set up alerts in Kibana for specific events or attack patterns.
+
+#### 10. **Enhance Security**
+   - Enable firewalls and security groups on Digital Ocean to restrict access to the honeypot.
+   - Implement network monitoring and intrusion detection systems if necessary.
+
+### Summary
+
+By following these steps, you can set up a fully functional T-Pot honeypot on Digital Ocean, allowing you to monitor, analyze, and visualize cyber attacks in real-time. This project not only helps in understanding attack patterns but also in enhancing overall cybersecurity measures.
+   
 Images from the lap to follow soon!
