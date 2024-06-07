@@ -134,6 +134,9 @@ By achieving these objectives, the project aims to significantly enhance the und
 
 By following these steps, you can set up a fully functional T-Pot honeypot on Digital Ocean, allowing you to monitor, analyze, and visualize cyber attacks in real-time. This project not only helps me in understanding attack patterns from all over the world, but also in enhancing overall cybersecurity measures.
 
+##Images from the project
 
 ![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/Everywhere.png)   
+After 24 hours of the setup, attacks are coming from all over the world as shown on the map.
+
 Images from the lap to follow soon!
