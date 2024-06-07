@@ -137,7 +137,7 @@ By following these steps, you can set up a fully functional T-Pot honeypot on Di
 ## Images from the project
 
 ![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/Everywhere.png)   
-After 24 hours of the setup, attacks are coming from all over the world as shown on the map.
+After 24 hours of the setup, attacks are coming from all over the world as shown on the map. The system is experiencing a high volume of attacks from diverse global locations, targeting various services like FTP, SSH, TELNET, EMAIL, and SQL. The absence of a concentrated attack pattern suggests a widespread, non-discriminatory scanning behavior, emphasizing the need for robust, multi-layered security measures.
 
 ![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/honeytrap1.png)
 Diagram of Honeytrap with the captured attacks by Hackers
