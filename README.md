@@ -132,6 +132,6 @@ By achieving these objectives, the project aims to significantly enhance the und
 
 ### Summary
 
-By following these steps, you can set up a fully functional T-Pot honeypot on Digital Ocean, allowing you to monitor, analyze, and visualize cyber attacks in real-time. This project not only helps in understanding attack patterns but also in enhancing overall cybersecurity measures.
+By following these steps, you can set up a fully functional T-Pot honeypot on Digital Ocean, allowing you to monitor, analyze, and visualize cyber attacks in real-time. This project not only helps me in understanding attack patterns from all over the world, but also in enhancing overall cybersecurity measures.
    
 Images from the lap to follow soon!
