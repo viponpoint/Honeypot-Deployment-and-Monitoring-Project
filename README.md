@@ -142,4 +142,36 @@ After 24 hours of the setup, attacks are coming from all over the world as shown
 ![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/honeytrap1.png)
 Diagram of Honeytrap with the captured attacks by Hackers
 
-Images from the lap to follow soon!
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/honeytrap.png)
+More from Honeytrap
+
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/suricata1.png)
+Suricata showcashing several intrusions by the attackers
+
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/suricata.png)
+More info from Suricata
+
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/suricata2.png)
+More info from Suricata
+
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/cowrie.png)
+A review of Cowrie Honeypot logs after 24 hours. As seen above, over 28,000 attacks in 24 hours was carried out from all over the world.
+
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/cowrie1.png)
+The Cowrie Honeypot is a system designed to capture SSH and Telnet connections. As seen above, SSH was the major focus of these attackers, with majority coming from known attackers.
+
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/cowrie2.png)
+Common username and password that were bruteforced
+
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/DataOverView.png)
+Attack overview. The above map shows where the attacks are coming from, the ports being targetted, the IP address of the attackers, the time of attacks and many more info that is helpful to an analyst.
+
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/attackmap.png)
+As seen above, the attacks are from all over the world, this is an indicator that as individual or organization, we need to be security conscious at all time and must endeavour to have multiple layers of security controls.
+
+![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/Attacksatonce.mp4)
+
+
+After analyzing the connections and session logs of attackers to the system over a 24-hour period, it is evident that attacks are not concentrated based on Organization, Country, or Operating System.
+
+The diverse origins of attack sources indicate that the scanning noise and attacks are constant and not attributable to any specific source. Anyone operating systems connected to the Internet must ensure these systems have multiple layers of security controls, and constant monitoring must be engaged.
