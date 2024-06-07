@@ -139,10 +139,5 @@ By following these steps, you can set up a fully functional T-Pot honeypot on Di
 ![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/Everywhere.png)   
 After 24 hours of the setup, attacks are coming from all over the world as shown on the map.
 
-<video width="600" controls>
-  <source src="https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/Attacksatonce.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 
 Images from the lap to follow soon!
