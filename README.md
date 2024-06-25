@@ -161,7 +161,7 @@ A review of Cowrie Honeypot logs after 24 hours. As seen above, over 28,000 atta
 The Cowrie Honeypot is a system designed to capture SSH and Telnet connections. As seen above, SSH was the major focus of these attackers, with majority coming from known attackers.
 
 ![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/cowrie2.png)
-Common username and password that were bruteforced
+Common username and password that were bruteforced. As seen, highlight of common usernames and passwords used in attack attempts through dynamic tag clouds, along with statistics on the top attacking Autonomous Systems (ASNs) and source IP addresses. It also lists the most frequent command line inputs detected by the honeypot, providing insights into attacker behavior and patterns.
 
 ![Screenshot 2024-06-07 150250](https://github.com/viponpoint/Honeypot-Deployment-and-Monitoring-Project/blob/main/DataOverView.png)
 Attack overview. The above map shows where the attacks are coming from, the ports being targetted, the IP address of the attackers, the time of attacks and many more info that is helpful to an analyst.
@@ -174,4 +174,5 @@ As seen above, the attacks are from all over the world, this is an indicator tha
 
 After analyzing the connections and session logs of attackers to the system over a 24-hour period, it is evident that attacks are not concentrated based on Organization, Country, or Operating System.
 
-The diverse origins of attack sources indicate that the scanning noise and attacks are constant and not attributable to any specific source. Anyone operating systems connected to the Internet must ensure these systems have multiple layers of security controls, and constant monitoring must be engaged.
+The diverse origins of attack sources indicate that the scanning noise and attacks are constant and not attributable to any specific source. Any individual operating systems connected to the Internet must ensure these systems have multiple layers of security controls, and constant monitoring must be engaged.
+Again, this project not only helps me in understanding attack patterns from all over the world, but also in enhancing overall cybersecurity measures.
